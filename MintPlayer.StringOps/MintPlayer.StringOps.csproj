@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.1</Version>
+    <Authors>Pieterjan De Clippel</Authors>
+    <Company>MintPlayer</Company>
+    <Description>Contains missing string operations</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/MintPlayer/MintPlayer.StringOps</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MintPlayer/MintPlayer.StringOps</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ucfirst</PackageTags>
   </PropertyGroup>
 
 </Project>
