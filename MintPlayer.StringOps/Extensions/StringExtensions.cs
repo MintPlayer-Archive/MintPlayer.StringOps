@@ -135,5 +135,27 @@ namespace MintPlayer.StringOps.Extensions
 
             return sb.ToString();
         }
+
+        public static int NthIndexOf(this string str, char c, int occurance)
+        {
+            var index = -1;
+            var counter = 0;
+            while (true)
+            {
+                var nextIndex = str.IndexOf(c, index);
+                if (nextIndex == -1)
+                {
+                    return -1;
+                }
+                else if (++counter == occurance)
+                {
+                    return nextIndex;
+                }
+                else
+                {
+                    index = nextIndex;
+                }
+            }
+        }
     }
 }

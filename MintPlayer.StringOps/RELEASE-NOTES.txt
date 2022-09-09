@@ -1,2 +1,6 @@
 ﻿v 1.1.0
 - Added camel-, kebab-, snake-case conversions
+
+v 6.0.0
+- Target .NET 6
+- Added NthIndexOf
